@@ -6,6 +6,9 @@ let x: Int = 10
 let y = 10
 let z = -10
 
+// underscores are allowed as commas
+let ransom = 1_000_000
+
 Int.max
 Int.min
 
