@@ -39,11 +39,11 @@
 ## Laying a Foundation
 
 * 10:00 - 10:50 --- Introductions (Apple, App Store, Xcode)
-* 11:00 - 11:50 --- Swift Crash Course
+* 11:00 - 11:50 --- Swift Crash Course P1
 * 12:00 - 12:50 --- LUNCH
-* 1:00 - 1:50 -- MVC / Action & Outlets / UIViewController
-* 2:00 - 2:50 -- Modals / Containment (TabBar, Navigation)
-* 3:00 - 3:30 -- Open QA / Extra Challenges
+* 1:00 - 1:50 --- Swift Crash Course P2
+* 2:00 - 2:50 --- MVC / Action & Outlets / UIViewController
+* 3:00 - 3:30 --- Modals / Containment (TabBar, Navigation)
 
 ^ Lunch
 
@@ -60,9 +60,9 @@
 * 10:00 - 10:50 --- UITableView (Dynamic & Static) / Delegates
 * 11:00 - 11:50 --- Auto Layout / Storyboard Segues
 * 12:00 - 12:50 --- LUNCH
-* 1:00 - 1:50 -- Animations
-* 2:00 - 2:50 -- Networking / Notifications (OpenWeatherAPI)
-* 3:00 - 3:30 -- Open QA / Extra Challenges
+* 1:00 - 1:50 --- Animations
+* 2:00 - 2:50 --- Networking / Notifications (OpenWeatherAPI)
+* 3:00 - 3:30 --- Open QA / Extra Challenges
 
 ^ Lunch
 
