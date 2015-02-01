@@ -1,5 +1,7 @@
 import Cocoa
 
+// TODO: Add inheritance demo
+
 struct Vertex {
     var x: Double
     var y: Double
