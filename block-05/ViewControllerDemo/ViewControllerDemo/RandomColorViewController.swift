@@ -2,7 +2,7 @@ import UIKit
 
 class RandomColorViewController: UIViewController {
     
-    // MARK: UIViewController
+    // MARK: - UIViewController
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +37,7 @@ class RandomColorViewController: UIViewController {
 //        self.view.backgroundColor = randomUIColor
 //    }
     
-    // MARK: Private
+    // MARK: - Private
     
     func setupBackgroundColor() {
         self.view.backgroundColor = getRandomUIColor()
