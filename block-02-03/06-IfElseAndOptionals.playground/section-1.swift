@@ -39,7 +39,7 @@ if let foundIndex = find(people, "Josh") {
     println("Found an index for Josh at: \(foundIndex)")
 }
 
-// switch -- very powerful, can match values, ranges, enums, tupals
+// switch -- very powerful, can match values, ranges, enums, tuples
 
 var statusCode: Int = 404
 var errorString: String

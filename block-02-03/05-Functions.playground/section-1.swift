@@ -59,7 +59,7 @@ func add(x: Int, y: Int) -> Int {
 let a1 = add(2,3)
 let a2 = add(10, 3)
 
-// can return more than one value via a tupal (named tupal in this case)
+// can return more than one value via a tuple (named tuple in this case)
 func double(x:Int, y:Int) -> (x:Int, y:Int) {
     return(x*2, y*2)
 }
