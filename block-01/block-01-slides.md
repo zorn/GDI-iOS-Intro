@@ -71,8 +71,8 @@ We'll be at ic@3401 at 34th and Market on the 2nd floor. We'll have a guard up f
 
 ## Building a To Do App
 
-* 10:00 - 10:50 --- UITableView (Dynamic & Static) / Delegates
-* 11:00 - 11:50 --- Auto Layout / Storyboard Segues
+* 10:00 - 10:50 --- UITableView / Delegates
+* 11:00 - 11:50 --- Auto Layout
 * 12:00 - 12:50 --- LUNCH
 * 1:00 - 1:50 --- Animations
 * 2:00 - 2:50 --- Networking / Notifications (OpenWeatherAPI)
