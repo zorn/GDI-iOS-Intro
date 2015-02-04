@@ -24,7 +24,21 @@
 ^ Signup on Meetup
 ^ phillycocoa.org
 
+--- 
+
+# Introductions
+
+* Who you are
+* Programming history
+* What you are looking to learn
+
 ---
+
+# Logistics
+
+We'll be at ic@3401 at 34th and Market on the 2nd floor. We'll have a guard up front until 2pm and then I can swipe folks up if they leave and come back after. 
+
+--- 
 
 # Goals
 

@@ -51,16 +51,24 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="ToDoItems" id="wNr-In-bzi">
-                        <barButtonItem key="rightBarButtonItem" title="New" id="aC1-5v-MC1"/>
+                        <barButtonItem key="rightBarButtonItem" title="New" id="aC1-5v-MC1">
+                            <connections>
+                                <segue destination="4cy-M2-nhC" kind="presentation" identifier="newToDoItemSegue" id="Pu5-OA-TBF"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="Kqd-GT-Z1o" id="5gc-9N-ELa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="526" y="389"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="D4B-WM-mez">
             <objects>
-                <navigationController id="4cy-M2-nhC" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="NewToDoItemViewControllerNavigation" id="4cy-M2-nhC" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="BpX-90-yH4">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -71,7 +79,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XOA-1Z-cTU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="564" y="-328"/>
+            <point key="canvasLocation" x="526" y="-328"/>
         </scene>
         <!--New ToDoItem-->
         <scene sceneID="31y-pO-zyp">
@@ -100,9 +108,20 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="New ToDoItem" id="z1A-KU-uDG">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="NOe-uB-ke0"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="tHi-8H-Kj7"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="NOe-uB-ke0">
+                            <connections>
+                                <action selector="cancel:" destination="gBX-Np-iay" id="tUP-Vf-2LR"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="tHi-8H-Kj7">
+                            <connections>
+                                <action selector="save:" destination="gBX-Np-iay" id="ukS-Vy-J7m"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="titleTextField" destination="AyV-qa-LQC" id="swu-gA-eX3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IBa-3b-i8B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
