@@ -40,11 +40,56 @@ let posterRectangle = Rectangle(size: posterSize, topLeftCorner: point)
 
 // Classes
 
+// Classes typically have internal mutable state. 
+// They are passed by reference and not value.
+
 class Animal {
+    
+    var energy: Int = 100
     let name: String
     
+    init(name: String) {
+        self.name = name
+    }
     
+    func runDistance(distance: Int) {
+        self.energy -= distance
+    }
 }
+
+let a1 = Animal(name: "Bob the Bear")
+a1.energy
+a1.runDistance(20)
+a1.energy
+let a2 = a1
+a2.energy
+a2.runDistance(5)
+a2.energy
+a1.energy
+
+// Classes can be inherited
+
+class Dog : Animal {
+    let hasFlees: Bool
+    
+    init(name: String, flees: Bool) {
+        hasFlees = flees
+        super.init(name: name)
+    }
+}
+
+class Cat : Animal {
+
+}
+
+let worm = Animal(name: "Billy the worm.")
+let pluto = Dog(name: "Pluto", flees: true)
+let felix = Cat(name: "Felix")
+
+
+
+
+
 
 
 
