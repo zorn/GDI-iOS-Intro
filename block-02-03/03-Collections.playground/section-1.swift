@@ -1,12 +1,12 @@
 import Cocoa
 
-// Arrays: Ordered collections. Collections of objects of a specific type
+// Arrays: Ordered collections. Collections of objects of a specific type.
 
-// two ways to express a variable that will hold an array of Strings
+// Two ways to express a variable that will hold an array of Strings.
 var list1: Array<String>
 var list2: [String]
 
-// To create an array content's in code we use the Array literal syntax
+// To create an array contents in code we use the Array literal syntax
 var nintendoPeople: [String] = ["Mario", "Luigi"]
 //var nintendoPeople = ["Mario", "Luigi"]
 
@@ -15,9 +15,11 @@ var luckyNumbers: [Int] = [7, 1, 1];
 
 // to add items
 nintendoPeople.append("Toad")
-nintendoPeople += ["Yoshi"] // notice you can't add a String to an Array, can only add two Arrays together
+nintendoPeople += ["Yoshi"]
+// nintendoPeople += "Yoshi"
+// notice you can't add a String to an Array, can only add two Arrays together
 
-// to access items
+// to access items, use the index
 println(nintendoPeople[2])
 
 // counts
@@ -34,7 +36,7 @@ println(nintendoPeople[2])
 let boss = "Bowser"
 nintendoPeople.append(boss)
 
-// can't remove an object -- need to find it's index.
+// To remove, need to find its index.
 // find() returns an optional -- will explain them shortly
 if let foundBossIndex = find(nintendoPeople, boss) {
     nintendoPeople.removeAtIndex(foundBossIndex)
