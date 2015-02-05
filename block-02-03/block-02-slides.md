@@ -19,5 +19,22 @@
 
 --- 
 
-# Playground Intro
+# Demo Agenda
+
+* Playground Introduction
+* Swift Playgrounds
+	* Types, Constants, Variables
+	* Numbers
+	* Collections
+	* Loops
+
+--- 
+
+# Challenge
+
+* Make a new playground.
+* Create an array of dictionaries. 
+* Each dictionary entry should have details about an album release of your favorite band. (Album Title, Release Year, Number of tracks)
+* Create an array of these dictionary entries.
+* Loop through the array and print out the various album details
 
