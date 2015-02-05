@@ -36,7 +36,14 @@
 
 # Logistics
 
-We'll be at ic@3401 at 34th and Market on the 2nd floor. We'll have a guard up front until 2pm and then I can swipe folks up if they leave and come back after. 
+* Guard until 2pm, after that we need to swipe you in.   
+	* Mike Z's Cell: 267-563-0616
+* Bathrooms
+* Lunch 
+
+^ Try to limit bathroom breaks during session breaks.
+
+^ Refrig should be available
 
 --- 
 
@@ -46,17 +53,17 @@ We'll be at ic@3401 at 34th and Market on the 2nd floor. We'll have a guard up f
 
 ^ introduce the tools and the SDK through lots of hands on exercises
 
+^ walk away with a better understanding of the Apple toolchain, verbage
+
 ---
 
 # Agenda Day 1
-
-## Laying a Foundation
 
 * 10:00 - 10:50 --- Introductions (Apple, App Store, Xcode)
 * 11:00 - 11:50 --- Swift Crash Course P1
 * 12:00 - 12:50 --- LUNCH
 * 1:00 - 1:50 --- Swift Crash Course P2
-* 2:00 - 2:50 --- MVC / Action & Outlets / UIViewController
+* 2:00 - 2:50 --- MVC / Actions & Outlets / UIViewController
 * 3:00 - 3:30 --- Modals / Containment (TabBar, Navigation)
 
 ^ Lunch
@@ -68,8 +75,6 @@ We'll be at ic@3401 at 34th and Market on the 2nd floor. We'll have a guard up f
 --- 
 
 # Agenda Day 2
-
-## Building a To Do App
 
 * 10:00 - 10:50 --- UITableView / Delegates
 * 11:00 - 11:50 --- Auto Layout
@@ -154,6 +159,12 @@ We'll be at ic@3401 at 34th and Market on the 2nd floor. We'll have a guard up f
 * Apple does not pay taxes on your behalf.
 * If you have large international sales, look into country-specific tax laws.
 
+---
+
+# Questions
+
+### Developer Accounts / App Store?
+
 --- 
 
 # WWDC 2014
@@ -176,7 +187,7 @@ We'll be at ic@3401 at 34th and Market on the 2nd floor. We'll have a guard up f
 
 # Objective-C
 
-^ Been at the heard of OS X since it was NextStep in 1989.
+^ Been heart of OS X development since it was NextStep in mid 80s.
 
 ^ C based language
 
