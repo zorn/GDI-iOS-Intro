@@ -34,14 +34,12 @@ func welcomeGuests(names: String...) {
 }
 welcomeGuests("Amy", "Bill", "Cathy", "Dan")
 
-func message(#name: String, #greeting: String = "Hello") {
+func message(#name: String, greeting: String = "Hello") {
     println("\(greeting) \(name)")
 }
 message(name: "James")
 message(name: "Harry", greeting: "Goodbye")
 
-
-// In-Out paramaters -- allow the passed in value to be changed-- not going to cover in class
 
 // Casting
 func divisionDescription(num: Double, den: Double) {
@@ -68,3 +66,7 @@ d1.x
 d1.y
 
 // functions are first class objects .. can pass functions into functions (clousre), can return functions from functions
+
+
+// In-Out paramaters -- allow the passed in value to be changed-- not going to cover in class
+

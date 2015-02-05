@@ -1,7 +1,7 @@
 import Cocoa
 
 // ranges
-0...2 // up to and including 2
+0...10 // up to and including 10
 0..<3 // up to but not including 3
 
 // you can use ranges in array
@@ -44,3 +44,5 @@ for var g = 1; g <= 5; ++g {
 
 // while do loop
 // do while loop
+
+// left for the reader to experiment with
