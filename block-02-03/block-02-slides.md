@@ -26,7 +26,6 @@
 	* Types, Constants, Variables
 	* Numbers
 	* Collections
-	* Loops
 
 --- 
 
@@ -36,5 +35,6 @@
 * Create an array of dictionaries. 
 * Each dictionary entry should have details about an album release of your favorite band. (Album Title, Release Year, Number of tracks)
 * Create an array of these dictionary entries.
-* Loop through the array and print out the various album details
+* Using indexes and the find() function to access and print various info.
+* BONUS: Sort the array by release year.
 

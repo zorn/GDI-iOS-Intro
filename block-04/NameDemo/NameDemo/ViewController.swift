@@ -6,7 +6,7 @@ class ViewController: UIViewController {
     
     @IBAction func sayMyNameButtonAction(sender: AnyObject) {
         let name = self.nameTextField.text
-        NSLog("My name is \(name)");
+        println("My name is \(name)");
     }
 
 }
