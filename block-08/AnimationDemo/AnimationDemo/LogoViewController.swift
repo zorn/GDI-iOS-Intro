@@ -17,7 +17,7 @@ class LogoViewController: UIViewController {
     }
     
     func animateLogo() {
-        UIView.animateWithDuration(2.0, animations: { () -> Void in
+        UIView.animateWithDuration(2.0, animations: {
             self.logoImageView.alpha = 1.0
         })
     }
