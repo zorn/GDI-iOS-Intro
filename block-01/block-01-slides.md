@@ -29,6 +29,7 @@
 # Introductions
 
 * Who you are
+* Favorite Movie or Video Game
 * Programming history
 * What you are looking to learn
 
@@ -80,8 +81,8 @@
 * 11:00 - 11:50 --- Auto Layout
 * 12:00 - 12:50 --- LUNCH
 * 1:00 - 1:50 --- Animations
-* 2:00 - 2:50 --- Networking / Notifications (OpenWeatherAPI)
-* 3:00 - 3:30 --- Open QA / Extra Challenges
+* 2:00 - 2:50 --- Networking
+* 3:00 - 3:30 --- Open QA
 
 ^ Lunch
 
