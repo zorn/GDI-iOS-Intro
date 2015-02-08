@@ -67,23 +67,23 @@ a2.runDistance(5)
 a2.energy
 a1.energy
 
-// Classes can be inherited
-
+//// Classes can be inherited
+//
 class Dog : Animal {
-    let hasFlees: Bool
+    let hasFleas: Bool
     
-    init(name: String, flees: Bool) {
-        hasFlees = flees
+    init(name: String, fleas: Bool) {
+        hasFleas = fleas
         super.init(name: name)
     }
 }
-
+//
 class Cat : Animal {
 
 }
-
+//
 let worm = Animal(name: "Billy the worm.")
-let pluto = Dog(name: "Pluto", flees: true)
+let pluto = Dog(name: "Pluto", fleas: true)
 let felix = Cat(name: "Felix")
 
 
