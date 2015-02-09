@@ -63,15 +63,10 @@ println(movies)
 movies["Toy Story"] = 3
 println(movies)
 
-// alternative ways
-//movies += ["The Incredibles": 1] // not sure why this fails
-movies["Ths Incredibles"] = 1
-println(movies)
+//movies += ["The Incredibles": 1] // can not add two dictionaries together since if they both use the same key it would fail.
 
 // There are friendly methods call updateValue:ForKey: and removeValueForKey: -- they return the old value if present (optionals) -- not going to cover but will mention here.
 
 // just like before using let will make a dictionary a contanst and immutable
 let fixedList = ["one" : 1]
 //fixedList["two"] = 2 // not allowed
-
-

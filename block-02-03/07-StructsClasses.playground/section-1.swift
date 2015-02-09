@@ -85,20 +85,3 @@ class Cat : Animal {
 let worm = Animal(name: "Billy the worm.")
 let pluto = Dog(name: "Pluto", fleas: true)
 let felix = Cat(name: "Felix")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

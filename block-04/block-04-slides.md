@@ -4,7 +4,9 @@
 
 --- 
 
-![MVC](mvc.gif)
+![fit inline](mvc.jpg) 
+
+https://developer.apple.com/library/ios/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html
 
 ---
 
@@ -34,7 +36,7 @@
 
 --- 
 
-![MVC](mvc.gif)
+![fit inline](mvc.jpg) 
 
 --- 
 

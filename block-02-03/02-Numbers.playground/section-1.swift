@@ -1,7 +1,6 @@
 // Numbers Types: Int, Double and Float
 
 // Int (short for Integers) are whole numbers and best use for keeping a count of things.
-
 let x: Int = 10
 let y = 10
 let z = -10
