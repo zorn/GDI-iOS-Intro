@@ -1,4 +1,4 @@
-// When we say "Types" we are referring to the types of data Swift can work with. Some examples of native types you'll see lots of include String and Bool. When it comes to numbers you'll see things like Int, Double and Float.
+// When we say "Types" we are referring to the kinds of data Swift can work with. Some examples of native types you'll see lots of include String and Bool. When it comes to numbers you'll see things like Int, Double and Float.
 
 "Hello World"
 true
@@ -20,7 +20,7 @@ let eyeColor: String = "green"
 
 // Constants are very much favored over variables in Swift. In general the preference is for immutable things, values that do no change over time.
 
-// Connstant/Variable nameing style.
+// Constant/Variable naming style.
 // In Apple's code you'll find they use the CammelCase style where the initial character is lowercase and where in english you'd normally have a space there is no space and the
 // https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html
 

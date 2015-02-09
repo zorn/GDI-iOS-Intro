@@ -38,7 +38,7 @@ let heightInInches = 20.3
 let numberOfThings = 3 // will be an Int
 let totalHeightNeeded = heightInInches * Double(numberOfThings)
 
-// Notice that I had to cast numberOfThings as a Double. Other languages might have done that for you. This is an example of Swift wantting you to be expressive of intent.
+// Notice that I had to cast numberOfThings as a Double. Other languages might have done that for you. This is an example of Swift wanting you to be expressive of intent.
 
 // Operations
 println(10 + 2)

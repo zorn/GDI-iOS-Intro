@@ -44,7 +44,7 @@
 
 ^ Try to limit bathroom breaks during session breaks.
 
-^ Refrig should be available
+^ Refrigerator should be available
 
 --- 
 
@@ -54,7 +54,7 @@
 
 ^ introduce the tools and the SDK through lots of hands on exercises
 
-^ walk away with a better understanding of the Apple toolchain, verbage
+^ walk away with a better understanding of the Apple toolchain, terminology
 
 ---
 
